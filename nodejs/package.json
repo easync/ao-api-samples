@@ -1,0 +1,14 @@
+{
+  "name": "core_easync_io_samples",
+  "version": "1.0.0",
+  "description": "Sample scripts for interacting with core.easync.io",
+  "main": "place_an_order.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}
