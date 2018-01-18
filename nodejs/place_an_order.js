@@ -1,5 +1,3 @@
-
-
 const API_TOKEN = '00000000-0000-0000-0000-000000000000'; //SEE https://app.easync.io/api for details
 
 const RETAILER = 'amazon';
@@ -13,38 +11,36 @@ const RETAILER_CREDENTIALS = {
 	"password": '123456'
 }
 
-const RETAILER_CREDENTIALS_PASSWORD = '12345';
-
 const BILLING_ADDRESS = {
-    "first_name": "William",
-    "last_name": "Rogers",
-    "address_line1": "84 Massachusetts Ave",
+    "first_name": "John",
+    "last_name": "Smith",
+    "address_line1": "14 Bus St.",
     "address_line2": "",
-    "zip_code": "02139",
-    "city": "Cambridge",
-    "state": "MA",
+    "zip_code": "123456",
+    "city": "Atlanta",
+    "state": "GA",
     "country": "US",
-    "phone_number": "5551234567"
+    "phone_number": "1234567890"
 }
 
 const SHIPPING_ADDRESS = {
-    "first_name": "Tim",
-    "last_name": "Beaver",
-    "address_line1": "77 Massachusetts Avenue",
+    "first_name": "Eric",
+    "last_name": "Walter",
+    "address_line1": "18 Ellie St.",
     "address_line2": "",
-    "zip_code": "02139",
-    "city": "Cambridge",
-    "state": "MA",
+    "zip_code": "070065",
+    "city": "Sacramento",
+    "state": "CA",
     "country": "US",
-    "phone_number": "5551230101"
+    "phone_number": "1234567890"
 };
 
 const PAYMENT_METHOD = {
-    "expiration_month": 7,
+    "expiration_month": 9,
     "expiration_year": 9999,
-    "name_on_card": "Patrick Williams",
+    "name_on_card": "Jack Sparrow",
     "number": "0000000000000000",
-    "security_code": "333",
+    "security_code": "555",
     "use_gift": true
 };
 
