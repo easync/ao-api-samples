@@ -2,9 +2,16 @@ const API_TOKEN = '00000000-0000-0000-0000-000000000000'; //SEE https://app.easy
 
 const RETAILER = 'amazon';
 
-const PRODUCT_ID = 'B01K7C0CSA';
+const PRODUCT_ID = 'B01K7C0CSA'; //Amazon US
+// const PRODUCT_ID = 'B01BRC1ZYE'; //Amazon DE
+// const PRODUCT_ID = 'B00V6C5Z0Q'; //Amazon UK
+// const PRODUCT_ID = 'B010S9M3L6'; //Amazon ES
+// const PRODUCT_ID = 'B019HC54WU'; //Amazon FR
+// const PRODUCT_ID = 'B019HC54WU'; //Amazon CA
+// const PRODUCT_ID = 'B007PNGRPC'; //Amazon IT
 
-const MAX_PRICE = 15000;
+
+const MAX_PRICE = 30000;
 
 const RETAILER_CREDENTIALS = {
 	"email": 'user@gmail.com',
